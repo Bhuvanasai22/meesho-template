@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7fc;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #f5f5fa;
+  padding: 40px 20px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.footer-left {
+  max-width: 300px;
+}
+
+.footer-left h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  font-size: 16px;
+}
+
+.app-buttons img {
+  width: 140px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 50px;
+}
+
+.footer-links div h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-links div p {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.footer-social {
+  min-width: 200px;
+}
+
+.footer-social h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.social-icons i {
+  margin-right: 15px;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.social-icons i:hover {
+  color: #000;
+}
+
+.footer-contact {
+  max-width: 300px;
+}
+
+.footer-contact h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-contact p {
+  font-size: 14px;
+  color: #444;
+}
